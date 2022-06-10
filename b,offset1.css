@@ -1,0 +1,19 @@
+.container{
+    border: black 2px solid;
+}
+.container h2{
+    text-align: center;
+}
+.row{
+    border: grey 3px solid;
+
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}

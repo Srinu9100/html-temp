@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.king{
+    width: 100%;
+    position:fixed ;
+    background-color: white;
+    
+}
+.hero{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    margin-left: 98px; 
+    margin-bottom: 30px;
+    
+}
+.nav-bar{
+    width: 100%;
+    max-width: 1200px;
+    font-weight: bold;
+    font-size: 78px;
+    padding-top: 30px;
+   
+ 
+}
+.nav,ul, li,a{
+    width: 100%;
+    height: auto;
+    text-decoration:none ;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 8px;
+
+
+}
+.about{
+    width: 100%;
+    display: block;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    background-image:url(back.jpng.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+    height: 60vh;
+    z-index: 1;
+    overflow: visible;
+}
+.about,h1{
+    color: aliceblue;
+    font-size: 45PX;
+    padding-top:70px;
+}
+.head{
+    display: flex;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.pra{
+    margin-left: 50px;
+    height: 400px;  
+} 
+.pra, .img{
+    width: 100%;
+    height: 400px;
+}
+.pharaghraph{
+    padding: 50px;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.tempor{
+    display: flex; 
+    margin: 0%;
+    padding: 40px;
+}
+.subheading{
+    text-align: center;
+
+}
+h2{
+     font-size: 40px;
+}
+.subheading-item{
+    font-size: 20px;
+}
+.Our-Journey{
+      max-width: 1200px;
+      margin:0px auto;
+}
+.present{
+    display: flex;
+    max-width: 1000px;
+    margin: 0px auto;
+    
+}
+.consultant{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.consultant-item{
+    display: flex;
+    padding-top: 20px;
+}
+.pro-item,.project{
+    padding-left: 60px;
+}
+.tecnical-lead{
+     padding-left: 60px;
+}
+.top-Designer{
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+.Designer{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+.lead{
+    display: flex;
+    padding-top: 20px;
+
+}
+.top-Designer{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.ux-item, .ui-item{
+    padding-left: 60px;
+
+}
+.lead-item, .star-item{
+    padding-left: 60px;
+
+
+}
+.pre-item{
+    font-weight:bold ;
+}
+.pro-item{
+    font-weight:bold ;
+    padding-left: 58px;
+    padding-bottom: 10px;
+}
+.tecnical{
+    font-weight: bold;
+    padding-left: 50px;
+}
+.star{
+    font-weight: bold;
+    padding-left: 50px;
+}
+.ux{
+    font-weight: bold;
+
+}
+.tecnical-lead{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.ux-item{
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.lead-item{
+    font-weight: bold;
+    padding-bottom: 10px;
+    overflow: hidden;
+
+}
+.project{
+    letter-spacing: 1px;
+}
+.ui-item{
+    letter-spacing: 1px;
+}
+.star-item{
+    letter-spacing: 1px;
+}
+.team{
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom:30px ;
+}
+ h3{
+    font-size: 40px;
+}
+.team-item{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.member-1,.member-2,.member-3,.member-4 {
+    width: 280px;
+    height: 320px;
+}
+.cottrell-img {
+    display: flex;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.member-2{
+    padding-left: 20px;
+}
+.member-3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.david{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.copyright{
+    display: flex;
+    max-width: 1000px;
+    margin: 0px auto;
+    justify-content: space-between;
+    color: white;
+    padding-top: 50px;
+}
+.bg-item{
+    background-color: navy;
+    height: 110px;
+    
+}
+.privacy{
+    display: flex;
+}
+.policy{
+    padding-right: 30px;
+}
+@media only screen and (max-width: 560px){
+    .about{
+        display: block;
+    }
+.head{ 
+    display: block;
+    height: 100%;
+    width: 100%;
+} 
+.pharaghraph{
+    display: block;
+}
+.tempor{
+    display: block;
+}
+.present{
+    display: block;
+}
+.consultant{
+    display: block;
+}
+.consultant-item{
+    display: block;
+}
+.top-Designer{
+   display: block;   
+}
+.lead{
+    display: block;
+}
+.cottrell-img{
+    display: block;
+    text-align: center;
+}
+.copyright{
+    display: block;
+
+}
+.privacy{
+   display: block;
+
+}
+.pra{
+    height: 100%;
+}
+}
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

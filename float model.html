@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template </title>
+    <style>
+       * {
+            box-sizing: border-box
+        }
+    body{
+        font-family:'Courier New', Courier, monospace
+     }
+     .header{ 
+         background-color: aqua;
+         padding: 30px;
+         height:auto;
+         width:100%;
+         text-align: center;
+         font-size: medium;
+
+     }
+     .col{
+         float: left;
+         width: 33.10%;
+         padding: 20px;
+         height: 350px;
+         background-color: blue;
+         margin: 1px;
+
+     }
+     .row:after{
+         content:"" ;
+         display:table;
+         clear:both;
+
+     }
+     .footer{
+         text-align: center;
+         padding:20px ;
+         width: auto;
+         height: auto;
+         background-color: brown;
+
+     }
+
+    </style>
+</head>
+<body>
+    <h2> css template using float</h2>
+    <div class="header">
+        <h1>header</h1>
+    </div>
+    <div class="row">
+    <div class=col>column1</div>
+    <div class=col>column2</div>
+    <div class=col>column3</div>
+    </div>
+    <div class="footer">
+        <p> footer</p>
+    </div>
+</body>
+</html>

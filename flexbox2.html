@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        *{ 
+            box-sizing: border-box;
+        }
+    .body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .header{
+        background-color: red;
+        padding: 20px;
+        font-size: 25;
+        text-align:center;
+        width:100%;
+    }
+    .row{
+        display: flex;
+    }
+    .col{
+        background-color: chartreuse;
+        padding:20px;
+        width:33.10%;
+        height:350px;
+        margin: 1px;
+        flex: 1;
+    
+
+    }
+    .footer{
+        background-color: cornflowerblue;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        font-size: 30px;
+        padding: 20px;
+    }
+    </style>
+
+</head>
+<body>
+      <h1>css template using flexbox</h1>
+    <div class="header">
+        <h1>header</h1>
+    </div>
+         <div class="row">
+             <div class="col">column1</div>
+             <div class="col">column2</div>
+             <div class="col">column3</div>
+         </div>
+
+         <div class="footer">
+            <p>footer</p>
+        </div>
+
+
+</body>
+</html>

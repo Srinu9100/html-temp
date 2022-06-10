@@ -1,0 +1,22 @@
+.container{
+    border: 1px sild black;
+
+}
+
+.container h1{
+    text-align: center;
+    color: red;
+}
+
+.row{
+    border: steelblue 3px solid;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
